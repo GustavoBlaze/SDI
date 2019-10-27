@@ -1,0 +1,97 @@
+/*
+Cores do Estilo
+  Background: #0c0c0c;
+  Foreground: #292c32;
+  Accent1: #79D3D3;
+  Accent2: #B392A9;
+  Accent3: #D26F93;
+*/
+
+
+html, body{
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background: #292c32;
+  display: flex;
+  flex-direction: column;
+}
+
+header.topo {
+  background-color: #0c0c0c;
+  padding: 0 2rem;
+  padding-top: 10px;
+  height: auto;
+  box-shadow: 0 0 2px black;
+}
+
+header.topo img.logo{
+  height: 40px;
+}
+
+header ul.menu {
+  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0 !important;
+}
+
+header ul.menu li{
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+header ul.menu li a {
+  text-decoration: none;
+  color: #B392A9;
+  padding: 8px 10px;
+  transition: 0.3s;
+}
+
+header ul.menu a:hover{
+  background-color: #292c32;
+  color: white;
+  border-radius: 2px;
+}
+
+section.corpo{
+  flex: 1;
+}
+
+footer.rodape {
+  padding: 1rem 2rem;
+  padding-bottom: 0.5rem;
+  background-color: #0c0c0c;
+  box-shadow: 0 -1px 2px black;
+}
+
+footer.rodape .menu{
+  color: #B392A9;
+  font-size: 0.8rem;
+}
+
+footer.rodape .menu ul{
+  margin: 0;
+  padding: 0 0.7rem;
+}
+
+footer.rodape .menu li, footer.rodape .menu a{
+  color: #292c32;
+  font-size: 0.8rem;
+}
+
+footer.rodape .menu li .fa-phone {
+  transform: rotate(87deg);
+}
+
+footer.rodape .copyright{
+  font-size: 0.6em;
+}
