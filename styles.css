@@ -57,6 +57,7 @@ body {
 
 .site-menu li {
   padding: 5px 10px;
+  cursor: pointer;
 }
 
 .site-menu a {
@@ -95,7 +96,7 @@ body {
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding: 5% 20%;
+  padding: 2.5% 20%;
 }
 
 #page-content .article {

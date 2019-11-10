@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Segurança da informação</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+  <link href="styles.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/afb6f7b8e8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header id="page-header">
+    <nav class='site-menu'>
+      <div class="site-logo">
+        <a href="/"><img src='imagens/logo_black.png' alt="logo"></a>
+      </div>
+      <ul>
+        <li><a href="/">Página Principal</a>
+          <div class='bottom-line'></div>
+        </li>
+        <li><a href="/desenvolvedores.html">Desenvolvedores</a>
+          <div class='bottom-line'></div>
+        </li>
+      </ul>
+    </nav>
+
+    <h2 class='site-title'>Vulnerabilidade Crítica no Facebook</h2>
+  </header>
+
+
+  <section id="page-content">
+    <div class="article">
+      <img class="article-thumb" src="imagens/art3.jpg">
+      <small class="article-date text-muted"><i class="far fa-calendar-alt"></i> 10 DE NOVEMBRO DE 2019</small>
+      <hr>
+      <h5><a href="#" class="article-title">Vulnerabilidade Crítica no Facebook</a></h5>
+
+      <p class="article-description text-muted">
+        Em março de 2016 um hacker da Índia, Anand Prakash, descobriu uma vulnerabilidade no site da rede social Facebook. A falha era bem crítica e dava a possibilidade de simplesmente qualquer pessoa conseguir acesso a qualquer conta do facebook simplesmente
+        sabendo o e-mail.
+      </p>
+
+      <p class="article-description text-muted">
+        <a href="http://www.anandpraka.sh/2016/03/how-i-could-have-hacked-your-facebook.html">Em um post em seu blog</a>, Prakash explica como e até mostra em vídeo o que descobriu. Ao forçar a troca de senha em um endereço secundária da rede social,
+        ele mesmo foi capaz de mudar a senha e entrar na conta invadida, no caso, a sua própria. Com isso, Prakash teve acesso às mensagens, aos dados de seus cartões de crédito e débito armazenados sob a seção de pagamento e fotos pessoais.
+      </p>
+
+      <p class="article-description text-muted">
+        Oficialmente, sempre que um usuário esquece sua senha no Facebook, ele tem como opção informar o número do seu telefone ou o seu endereço de e-mail para então receber do Facebook um código de 6 dígitos no seu telefone ou e-mail para depois cadastrar uma
+        senha nova. No site oficial, Prakash tentou inserir um código de 6 dígitos e foi bloqueado depois de 10-12 tentativas inválidas. Porém, nos endereços beta.facebook.com e mbasic.beta.facebook.com alguém esqueceu uma porta aberta, o que permitiu
+        que o hacker criasse uma senha nova para a sua conta, algo que poderia ter sido feito em milhares de outras contas por pessoas má intencionadas. </p>
+
+      <img style="border-radius: 4px; height: 350px; width: auto !important; margin: 0 auto;" src="imagens/pagina_fb.png">
+      <br>
+      <img style="border-radius: 4px; height: 350px; width: auto !important; margin: 0 auto;" src="imagens/configurando_bruteforce.png">
+      <br>
+      <img style="border-radius: 4px; height: 350px; width: auto !important; margin: 0 auto;" src="imagens/bruteforce_funcionando.png">
+      <small style="margin: 0 auto;" class='text-muted'>Hacker mostrando como explorar a vulnerabilidade usando sua propria conta.</small>
+      <br>
+
+    </div>
+
+  </section>
+
+  <footer id="page-footer">
+    <div class='footer-details'>
+      <div class='detail'>
+        <h5 class='detail-title'>Sobre o site</h5>
+        <small class='detail-description'>Um blog sobre segurança da informação e suas vertentes</small>
+      </div>
+
+      <div class='detail'>
+        <h5 class='detail-title'>Mapa do site</h5>
+        <ul>
+          <li><small><a href="/">Pagina Inicial</a></small></li>
+          <li><small><a href="/desenvolvedores.html">Desenvolvedores</a></small></li>
+        </ul>
+      </div>
+
+      <div class='detail'>
+        <h5 class='detail-title'>Contato</h5>
+        <ul>
+          <li><small><i class="far fa-envelope"></i> contato@securitys.com.br</small></li>
+          <li><small><i class="fas fa-phone-alt"></i> (24) 99999-9999</small></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class='copyright'>
+      <small class='text-muted'>&copy; 2019 SECURITYS. TODOS OS DIREITOS RESERVADOS.</small>
+    </div>
+
+  </footer>
+
+
+
+</body>
+
+</html>

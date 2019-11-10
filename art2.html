@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Segurança da informação</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+  <link href="styles.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/afb6f7b8e8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header id="page-header">
+    <nav class='site-menu'>
+      <div class="site-logo">
+        <a href="/"><img src='imagens/logo_black.png' alt="logo"></a>
+      </div>
+      <ul>
+        <li><a href="/">Página Principal</a>
+          <div class='bottom-line'></div>
+        </li>
+        <li><a href="/desenvolvedores.html">Desenvolvedores</a>
+          <div class='bottom-line'></div>
+        </li>
+      </ul>
+    </nav>
+
+    <h2 class='site-title'>VULNERABILIDADES WEB CONHECIDAS</h2>
+  </header>
+
+
+  <section id="page-content">
+    <div class="article">
+      <img class="article-thumb" src="imagens/art2.jpg">
+      <small class="article-date text-muted"><i class="far fa-calendar-alt"></i> 10 DE NOVEMBRO DE 2019</small>
+      <hr>
+      <h5><a href="#" class="article-title">Vulnerabilidades Web Conhecidas</a></h5>
+      
+      <p class="article-description text-muted">
+        <b>SQL Injection</b><br>
+        É uma falha que ocorre quando dados não confiáveis são enviados para um intérprete como parte de um comando ou consulta. Exemplo: quando efetuamos login em um site enviados nosso login e senha para o site ele faz uma consulta no banco
+        de dados como essa: SELECT * FROM tbUsuarios WHERE usuario = ‘gustavo’ AND senha = ‘123’. Quando essa query é excecutada no banco de dados, retorna os dados do usuario ‘gustavo’ caso a senha dele seja ‘123’ e isso significa que esse usuario existe.
+      </p>
+
+      <p class="article-description text-muted">
+        Mas se no lugar da senha a pessoa mal intencionada digitar ‘ OR 1 = 1, essa condição também vai ser aceita e o banco de dados vai retornar todos os usuarios da tabela, e o sistema vai concluir que o usuario e senha digitados são válidos e dará acesso
+        ao sistema para o hacker.
+      </p>
+      
+      <img src="imagens/sql_injection.png" style="width: 550px; height: auto; margin: 0 auto; border-radius: 4px;">
+      <small style="margin: 0 auto;" class='text-muted'>Exemplo de como o banco de dados interpreta uma query com sql injection</small>
+
+      <br>
+      <p class="article-description text-muted">
+          <b>CROSS-SITE SCRIPTING (XSS)</b><br>
+          Uma falha XSS ocorre sempre que um aplicativo inclui dados não confiáveis em uma nova página da web sem validar ou escapar adequadamente. O XSS permite que os invasores executem scripts no navegador da vítima, por sua vez, esses scripts podem redirecionar a vítima para um site malicioso ou até mesmo sequestrar sessões de usuários. 
+      </p>
+
+      <img style="width: 400px; height: auto; margin: 0 auto; border-radius: 4px;" src="imagens/xss.png">
+      <small style="margin: 0 auto;" class='text-muted'>Exemplo de como um ataque XSS pode acontecer.</small>
+
+      <br>
+      <p class="article-description text-muted">
+        <b>Proteção de Ataque Insuficiente</b><br>
+        A maioria dos aplicativos não possui capacidade básica para detectar, prevenir e responder a ataques manuais e automatizados. A proteção de ataques vai muito além da validação de entrada básica e envolve a detecção, resposta e até bloqueio de tentativa de exploração. 
+      </p>
+      
+      <p class="article-description text-muted">
+          Um exemplo é quando o programador não cria um metodo para detectar tentativas automatizadas de login e senha ao seu sistema, isso dá abertura para o hacker fazer varias tentativas até que tenha sucesso. 
+      </p>
+
+      <img style="width: 600px; height: auto; margin: 0 auto; border-radius: 4px;" src="imagens/codigo.png">
+      <br>
+      <img style="width: 600px; height: auto; margin: 0 auto; border-radius: 4px;"  src="imagens/bruteforce.png">
+      <small style="margin: 0 auto;" class='text-muted'>Exemplo de ataque de força bruta com um script python.</small>
+
+      <br>
+      <a class='article-button' style='width: 150px !important; align-self: flex-end;'href="art3.html">Proximo artigo</a>
+    </div>
+
+  </section>
+
+  <footer id="page-footer">
+    <div class='footer-details'>
+      <div class='detail'>
+        <h5 class='detail-title'>Sobre o site</h5>
+        <small class='detail-description'>Um blog sobre segurança da informação e suas vertentes</small>
+      </div>
+
+      <div class='detail'>
+        <h5 class='detail-title'>Mapa do site</h5>
+        <ul>
+          <li><small><a href="/">Pagina Inicial</a></small></li>
+          <li><small><a href="/desenvolvedores.html">Desenvolvedores</a></small></li>
+        </ul>
+      </div>
+
+      <div class='detail'>
+        <h5 class='detail-title'>Contato</h5>
+        <ul>
+          <li><small><i class="far fa-envelope"></i> contato@securitys.com.br</small></li>
+          <li><small><i class="fas fa-phone-alt"></i> (24) 99999-9999</small></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class='copyright'>
+      <small class='text-muted'>&copy; 2019 SECURITYS. TODOS OS DIREITOS RESERVADOS.</small>
+    </div>
+
+  </footer>
+
+
+
+</body>
+
+</html>
