@@ -196,3 +196,49 @@ body {
 .footer-details .detail a {
   color: #828681;
 }
+
+.dev-page #page-content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.dev {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+.dev-name {
+  padding-top: 10px;
+}
+
+.dev .dev-img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+
+.dev .dev-about{
+  max-width: 250px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+}
+
+.dev .dev-contact{
+  color: #ccc;
+  padding-bottom: 10px;
+}
+
+.dev .dev-contact small{
+  display: block;
+}
+
+.dev .dev-networks a{
+  padding: 0 5px;
+}
+.dev .dev-networks i{
+  font-size: 30px;
+}
