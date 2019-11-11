@@ -1,0 +1,71 @@
+﻿ <!DOCTYPE html>
+ <html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="2.png">
+	<link rel="stylesheet"  type="text/css" href="estilo/reset.css">
+	<link rel="stylesheet"  type="text/css" href="estilo/estilo.css">
+	<link rel="stylesheet"  type="text/css" href="estilo/w3.css">
+	<title>Projetos em Nuvem</title>
+</head>
+<body>	
+
+
+<p align="center">
+<font size="10" face="Verdana">
+Projeto em Nuvem
+</font>
+</p>
+
+<div class="w3-bar w3-section w3-light-blue w3-card-4">
+  <a href="index.html" class="w3-bar-item w3-button w3-white w3-hover-black">Inicio</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button">Serviços Armazenamento Gratuitos</button>
+    <div class="w3-dropdown-content w3-bar-block ">
+		<a href="http://mega.nz/" class="w3-bar-item w3-button">1. Mega</a>
+		<a href="https://hubic.com/pt/" class="w3-bar-item w3-button">2. HubiC</a>
+		<a href="https://www.box.com/" class="w3-bar-item w3-button">3. Box </a>
+		<a href="https://www.backblaze.com/pt_BR/" class="w3-bar-item w3-button">4. Backblaze</a>
+		<a href="https://www.pcloud.com/pt/" class="w3-bar-item w3-button">5. pCloud</a>
+		<a href="https://www.mediafire.com/" class="w3-bar-item w3-button">6. MediaFire</a>
+		<a href="https://www.flipdrive.com/" class="w3-bar-item w3-button">7. Flipdrive</a>
+		<a href="https://disk.yandex.com/" class="w3-bar-item w3-button">8. Yandex Disk</a>
+		<a href="https://www.syncplicity.com/en/pricing#personal" class="w3-bar-item w3-button">9. Syncplicity</a>
+		<a href="https://www.free-hidrive.com/por/" class="w3-bar-item w3-button">10.HiDrive</a>		
+     </div>
+  </div>
+  	<a href="contatosite.html" class="w3-bar-item w3-button">Contatos</a>
+</div>
+<h4 class="w3-center w3-light-blue">O QUE É NUVEM?
+</h4>
+
+<p class="texto">Nuvem é uma tecnologia que permite guardar dados na internet através de um servidor online sempre disponível. Nele, o usuário pode armazenar arquivos, documentos e outras informações sem precisar de um HD no seu computador.
+	Neste artigo, você vai passar a conhecer mais sobre o armazenamento em nuvem e como a tecnologia pode ser útil nas atividades do seu dia a dia de estudo, trabalho e lazer. 
+</p>
+
+<h4 class="w3-center w3-light-blue">O QUE É ARMAZENAMENTO EM NUVEM?</h4>
+
+<div align="center"><p>Armazenamento em nuvem é uma tecnologia recente que permite que o usuário de internet guarde todos os seus dados em um servidor online.É possível armazenar, editar, compartilhar e excluir arquivos, documentos, fotos, vídeos, contatos e aplicativos livremente. O armazenamento em nuvem dispensa a necessidade de um armazenamento local. Seja em um computador desktop, um notebook, um smartphone ou um tablet, não é necessário ter um HD (disco rígido) físico para guardar informações. Tudo fica guardado e disponível em um ambiente digital. Para acessar esses arquivos armazenados em nuvem, o usuário precisa apenas de uma conexão estável com a internet. É com ela que acontece o gerenciamento e a edição de arquivos e pastas guardados no servidor online. Isso pode ser feito de qualquer lugar de distância e a qualquer hora do dia, desde que haja internet para uso.
+</p></div></font>
+<div align="center"><img style=width:50%;height:50%;" src="imagens/3.png"></div>
+<h4 class="w3-center w3-light-blue">COMO FUNCIONA O ARMAZENAMENTO EM NUVEM?</h4>
+<p class="texto">Você já sabe o que é armazenamento em nuvem. É hora de aprender como é a mecânica de funcionamento da tecnologia, que tem conquistado cada vez mais usuários. Grandes empresas de tecnologia, como a Microsoft, o Google e a Apple, mantêm centros de dados com milhares servidores ligados 24 horas durante o ano inteiro. Esses servidores, que têm altíssima capacidade de armazenamento e estão localizados a quilômetros de distância do usuário, estão conectados à internet. Quando o usuário acessa um serviço de armazenamento em nuvem, ele entra em pelo meno um desses servidores. Nele, consegue enviar seus arquivos pela internet e deixá-los guardados em segurança em questão de segundos. Os arquivos enviados são automaticamente salvos e distribuídos em vários servidores diferentes. Assim, se algum dos servidores falhar, o usuário nunca fica sem acesso aos seus arquivos disponíveis nos outros servidores. E também nunca perde o que guardou lá. </p>
+<div align="center"><img width="512" height="512" src="4.jpg"></div>
+
+<h4 class="w3-center w3-light-blue">Lema</h4>
+
+<div align="center"><cite>"O futuro está chegando em formato de nuvem!"</cite> 
+</div>
+<hr>
+<h4 class="w3-center w3-light-blue">Contato</h4>
+<footer>
+	<h5 id="rodape">Copyright<sub>&copy</sub>: Sistema de Informação do primeiro período</h5>
+</footer>
+
+<address>	
+	Escritos por <a href="mailto:201920345@foa.org.br">Thales Eduardo Belo Garcez</a>, <a href="mailto:201920328@foa.org.br">Gabriel Gustavo de Souza</a>, <a href="mailto:201920169@foa.org.br">Igor Oliveira de Carvalho</a><br> 
+</address>
+</body>
+
+</html>
