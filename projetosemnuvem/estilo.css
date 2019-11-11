@@ -1,0 +1,67 @@
+﻿.mySlides {display:none;}
+
+li 	{display: inline;}
+
+li a {
+	color: #000;
+	padding: 8px;
+	text-decoration: none;}
+
+li a:hover {
+	background-color: #555;
+	color: white;}	
+	
+#titulo	{background-color:#01A9DB;
+		color:black;padding:5px;
+		font-family:courier;
+		font-size:10%;
+		text-align:left;
+		line-height:50%;}	
+
+.texto {color:MidnightBlue;
+		padding:10px;
+		font-family:Verdana;
+		font-size:100%;
+		text-align:justify;
+		line-height:150%;
+		text-indent: 1%;}	
+		
+#coluna {color:MidnightBlue;
+		padding:10px;
+		font-family:Verdana;
+		font-size:100%;
+		text-align:justify;
+		line-height:150%;
+		text-indent: 1%;
+		column-count: 2;
+		column-rule: 2px solid MidnightBlue;}	
+		
+#final {color:Blue;
+		padding:10px;
+		font-family:courier;
+		font-size:100%;
+		text-align:justify;
+		line-height:150%;
+		column-count: 2;
+		column-rule: 2px solid MidnightBlue;}	
+		
+
+#rodape {color:MidnightBlue;
+		padding:10px;
+		font-family:Verdana;
+		font-size:100%;
+		text-align:justify;
+		column-count: 2;
+		line-height:100%;}		
+
+abbr {	color:red; 
+		font-family:Comic Sans; 
+		font-size:120%; 
+		font-style:italic;
+		font-weight:bold;}
+
+cite {color:#8B0000;
+		padding:1	px;
+		font-family:Verdana;
+		font-size:100%;
+		line-height:100%;}
