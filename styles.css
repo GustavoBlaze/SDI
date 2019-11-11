@@ -207,7 +207,7 @@ body {
 .dev {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   text-align: center;
   width: 50%;
